@@ -21,7 +21,7 @@ body {
 /* Header and Navigation Styling */
 header {
     background-color: #fff; /* White background for the header */
-    padding: 10px 0;
+    padding: 5px 0;
 }
 
 nav ul {
@@ -108,6 +108,6 @@ main {
 /* Footer Styling */
 footer {
     background-color: #fff; /* White background for the footer */
-    padding: 10px 0;
+    padding: 5px 0;
     text-align: center;
 }
