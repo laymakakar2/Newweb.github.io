@@ -1,113 +1,73 @@
-/* Body and Overall Page Styling */
-body {
-    background-color: lightblue; /* Sets the background color to light blue */
-    font-family: Arial, sans-serif; /* Sets a default font */
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /* Centers content vertically */
-    min-height: 100vh; /* Full viewport height */
-}
-
-/* Container Styling */
-.container {
-    text-align: center; /* Centers text horizontally */
-    padding: 20px;
-    margin: auto;
-    max-width: 800px; /* Adjust width as per your design */
-}
-
-/* Header and Navigation Styling */
-header {
-    background-color: #fff; /* White background for the header */
-    padding: 5px 0;
-}
-
-nav ul {
-    list-style-type: none; /* Removes bullet points */
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center; /* Centers navigation items */
-}
-
-nav ul li {
-    margin: 0 10px; /* Spacing between navigation items */
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: black; /* Black text color */
-    font-weight: normal; /* Normal font weight */
-}
-
-/* Specific Style for 'IT Ethics' Button */
-nav ul li {
-    margin: 0 10px; /* Spacing between navigation items */
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: black; /* Black text color */
-    font-weight: normal; /* Normal font weight */
-    
-}
-
-/* Specific Style for 'IT Ethics' Button */
-* {
+ <style>  {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Navbar Styling */
-header {
-    background-color: #333; /* Dark background for the navbar */
-    color: white;
-    text-align: center;
-    padding: 10px 0;
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+    color: black;
 }
 
-/* Nav list styling */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
 nav ul {
     list-style: none;
-    display: inline-flex; /* Aligns nav items in a row */
+    padding: 10px 0;
+    display: flex;
     justify-content: center;
 }
 
-/* Nav item styling */
 nav ul li {
     margin: 0 15px;
 }
 
-/* General link styling */
 nav ul li a {
     text-decoration: none;
-    color: white; /* White text color */
-    font-size: 18px; /* Regular font size */
+    color: white;
+    font-size: 18px;
 }
 
-/* Specific styling for 'IT Ethics' button */
-nav ul li a[href="it-ethics.html"] {
-    font-weight: bold; /* Bold font */
-    color: black; /* Black text color */
-    background-color: white; /* White background */
-    padding: 5px 10px; /* Padding around the text */
-    border-radius: 5px; /* Rounded corners */
-    font-size: 20px; /* Larger font size */
+.container {
+    max-width: 900px;
+    margin: auto;
+    background-color: white;
+    padding: 30px;
+    text-align: center;
 }
 
-}
 
-/* Main Section Styling */
 main {
     padding: 20px 0;
 }
 
-/* Footer Styling */
 footer {
-    background-color: #fff; /* White background for the footer */
+    background-color: #fff;
     padding: 5px 0;
     text-align: center;
 }
+
+nav ul li a[href="index.html"] {
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+nav ul li a[href="it-ethics.html"] {
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+        
+</style>   
