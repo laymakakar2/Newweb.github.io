@@ -43,9 +43,61 @@ nav ul li a {
 }
 
 /* Specific Style for 'IT Ethics' Button */
+nav ul li {
+    margin: 0 10px; /* Spacing between navigation items */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black; /* Black text color */
+    font-weight: normal; /* Normal font weight */
+    
+}
+
+/* Specific Style for 'IT Ethics' Button */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar Styling */
+header {
+    background-color: #333; /* Dark background for the navbar */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Nav list styling */
+nav ul {
+    list-style: none;
+    display: inline-flex; /* Aligns nav items in a row */
+    justify-content: center;
+}
+
+/* Nav item styling */
+nav ul li {
+    margin: 0 15px;
+}
+
+/* General link styling */
+nav ul li a {
+    text-decoration: none;
+    color: white; /* White text color */
+    font-size: 18px; /* Regular font size */
+}
+
+/* Specific styling for 'IT Ethics' button */
 nav ul li a[href="it-ethics.html"] {
-    font-weight: bold; /* Bold font weight */
-    font-size: 1.2em; /* Larger font size */
+    font-weight: bold; /* Bold font */
+    color: black; /* Black text color */
+    background-color: white; /* White background */
+    padding: 5px 10px; /* Padding around the text */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 20px; /* Larger font size */
+}
+
 }
 
 /* Main Section Styling */
